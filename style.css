@@ -1,0 +1,151 @@
+html, body, #wrap {
+    height:100%;
+    width:100%;
+    margin:0;
+}
+.url_container{
+  display: inline-block;
+  width: 100%; height: 10%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.api_input{
+  display: inline-block;
+  width: 95%; height: 100%;
+  border: 0;
+  margin: 0;
+  box-sizing: border-box;
+  vertical-align: top;
+  border-radius: 0;
+}
+button{
+  display: inline-block;
+  width: 5%; height: 100%;
+  border: 0;
+  background-color: #33c340;
+  color: #ffffff;
+  margin: 0;
+  box-sizing: border-box;
+  vertical-align: top;
+  font-size: 90%;
+}
+.data_container{
+  display: inline-block;
+  vertical-align: top;
+  width: 20%;
+  min-width: 127px;
+  height: 100%;
+  background-color: #1d1d1d;
+}
+.template_builder{
+  display: inline-block;
+  vertical-align: top;
+  width: 80%;
+  height: 100%;
+  background-color: #000000;
+}
+
+.mobile_template{
+  display: inline-block;
+  width: 225px;
+  height: 400px;
+  background-color: black;
+  border: 4px solid #e9d94e;
+  border-radius: 4px;
+}
+.generated_html{
+  position: relative;
+  vertical-align: top;
+}
+.generate{
+  width: 10%;
+  border-radius: 4px;
+}
+input{
+	box-sizing: border-box;
+	width: 90%;
+	height: 8%;
+  margin: 2% 5%;
+  padding: 0 2%;
+	font-size: 18px;
+  background-color: #cdd2d0;
+  border: 0;
+  color: #000000;
+  border-radius: 3px;
+}
+.template_popup{
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+  margin: auto;
+  width: 60%; height: 60%;
+  border-radius: 5px;
+  border: 4px solid #3763ff;
+  visibility: hidden;
+  background-color: #ffffff;
+  z-index: 3;
+  text-align: center;
+}
+.generated_html_container{
+  display: inline-block;
+  height: 40%;
+  width: 90%;
+  border-radius: 3px;
+  border: 3px solid #3763ff;
+  overflow: scroll;
+  text-align: left;
+}
+.generated_url_container{
+  display: inline-block;
+  height: 10%;
+  width: 90%;
+  border-radius: 3px;
+  border: 3px solid #3763ff;
+  overflow: scroll;
+}
+.generated_id_list_container{
+  display: inline-block;
+  height: 10%;
+  width: 90%;
+  border-radius: 3px;
+  border: 3px solid #3763ff;
+  overflow: scroll;
+}
+.collection_header{
+  color: #ffffff;
+  font-size: 25px;
+}
+  /*==============================*/
+ /*========Template CSS==========*/
+/*==============================*/
+.generated_template{
+  position: relative;
+  vertical-align: top;
+  display: inline-block;
+  width: 225px;
+  height: 400px;
+  background-color: black;
+}
+.template_name{
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-size: 18px;
+  color: #dddddd;
+}
+.data{
+  position: relative;
+  top: 0; left: 0;
+  color: #fff954;
+  display: inline-block;
+  z-index: 2;
+  margin: 2px;
+  cursor: default;
+  border: 2px solid #fff954;
+  border-radius: 2px;
+  padding: 2px;
+  font-size: 16px;
+}
+h4{
+  margin: 2px;
+}

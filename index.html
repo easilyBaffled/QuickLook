@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8" />
+        <title>QuickLook</title>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css" />
+        <link rel="stylesheet" href="style.css" />
+    </head>
+
+    <body>
+        <div class="url_container">
+          <input class="api_input" type="text" placeholder="Add your API URL here or leave blank to use the default"/><!--
+          --><button class='api_button'>GO</button>
+        </div><!--
+        --><div class="data_container"></div><!--
+     --><div class="template_builder">
+            <div class="mobile_template">
+              <input type="text" placeholder="App Name">
+            </div>
+            <span>
+              <div class="generated_html"></div>
+            </span>
+            <div>
+                <button class="generate">Generate</button>
+            </div>
+        </div>
+
+        <div class="template_popup">
+          <h3>Sign in to <a href="http://jsfiddle.net/user/login/" target="_blank">JSFiddle.</a>
+          Go to <a href="http://jsfiddle.net/easilyBaffled/de12rcb9/" target="_blank">this JSFiddle<a> and fork the project, then paste in the code bellow.
+          Click the bars button to the right of Run, and open the link on your phone.
+          </h3>
+          <code class="generated_html_container"></code>
+          <div class="generated_url_container"></div>
+          <code class="generated_id_list_container"></code>
+        <script src="https://code.jquery.com/jquery-1.10.1.js"></script>
+        <script src="http://code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+        <script src="script.js"></script>
+    </body>
+
+</html>
